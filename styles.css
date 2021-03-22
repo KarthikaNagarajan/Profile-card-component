@@ -1,0 +1,80 @@
+body { 
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+
+}
+.parent {
+    position: relative;
+    height: 100vh;
+    overflow:hidden;
+
+}
+.parent p{
+    color:hsl(0, 0%, 59%);
+}
+.top-img{
+    position: absolute;
+    right:53%;
+    bottom:35%;
+}
+ .card{
+    width:320px;
+    border:0;
+    border-radius: 5%;
+    position: absolute;
+    right:50%;
+    top:50%;
+    z-index:1;
+    overflow: hidden;
+    text-align: center;
+    transform: translate(50%,-50%);
+} 
+.card-body{
+    position: relative;
+    height:140px;
+    line-height: 1;
+}
+.profile{
+    border-radius: 50%;
+    position: absolute;
+    bottom:65%;
+    left:35%;
+    border: 5px solid white;
+}
+.Details{
+    position: absolute;
+    top: 50%;
+    left:32%;
+}
+.name-stats{
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    color: #000;
+}
+.card-footer{
+    background-color:white;
+    padding: 20px 30px;
+}
+.col-4{
+    margin-bottom: 0;
+}
+.bottom-img{
+    position: absolute;
+    left:48%;
+    top:48%;
+}
+
+.attribution { 
+    font-size: 11px; 
+    position: absolute;
+    bottom: 1px;
+    /* left:50%;
+    transform: translateX(-50%); */
+}
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
+
+
